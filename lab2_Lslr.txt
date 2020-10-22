@@ -1,1 +1,7 @@
-
+итого 8
+-rw-rw-r--. 1 For_Labs For_Labs    0 окт 14 10:53 new_file
+-rw-rw-rw-. 1 For_Labs For_Labs    0 окт 14 11:28 lab2_1.txt
+-rw-rw-rw-. 1 For_Labs For_Labs    0 окт 14 11:11 file2
+-rw-------. 1 For_Labs For_Labs    0 окт 14 11:10 file1
+-rw-r-----. 1 For_Labs For_Labs    5 окт 14 10:49 file
+drw-rwxr-x. 2 For_Labs For_Labs 4096 окт 14 17:53 dir
