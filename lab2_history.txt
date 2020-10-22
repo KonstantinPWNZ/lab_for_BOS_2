@@ -1,0 +1,90 @@
+    1  зцв
+    2  pwd
+    3  id
+    4  sudo -v
+    5  sudo -l -U Konstantin
+    6  sudo sudo -l -U Konstantin
+    7  sudo -l
+    8  groups Konstantin
+    9  getent group sudo
+   10  cd ~
+   11  ls
+   12  ll
+   13  ls -l
+   14  ls --help
+   15  cd ~
+   16  mkdir test
+   17  ls
+   18  cd /test
+   19  cd ~/test
+   20  touch file
+   21  ls
+   22  ll
+   23  nano ~/.bash_history
+   24  ll
+   25  cd test
+   26  ll
+   27  chmod ugo-rwx file
+   28  ll
+   29  echo "тест" >> file
+   30  cat file
+   31  chmod u+w file
+   32  ll
+   33  echo "test" >> file
+   34  cat file
+   35  chmod g+r file
+   36  ll
+   37  cat file
+   38  chmod u+r file
+   39  ll
+   40  cat file
+   41  cd
+   42  mkdir dir
+   43  ll
+   44  ls -l
+   45  touch new_file /dir
+   46  touch new_file ~/dir
+   47  cat dir
+   48  echo "file 2" >> dir/new_file
+   49  ll dir
+   50  ll
+   51  cd dir
+   52  ll
+   53  cd
+   54  chmod 0-x dir
+   55  chmod o-x dir
+   56  ll
+   57  cat dir/new_file
+   58  chmod u-x dir
+   59  ll
+   60  cd ..
+   61  ll
+   62  cd
+   63  cat dir/new_file
+   64  rm dir/new_file
+   65  chown root file
+   66  ls
+   67  cd dir
+   68  cat dir
+   69  cd ~/dir
+   70  chgrp root file
+   71  cd test
+   72  ll
+   73  chgrp root file
+   74  nano ~/.bash_history
+   75  umask
+   76  umask 077
+   77  touch file1
+   78  ls -l
+   79  umask 000
+   80  touch file2
+   81  ls -l
+   82  sudo id
+   82  su -
+   83  whoami
+   84  id
+   85  cat file
+   90  ll
+   93  sudo id
+   94  ls -lR >> lab2_Lslr.txt 
+   95  history >> lab2_history.txt
